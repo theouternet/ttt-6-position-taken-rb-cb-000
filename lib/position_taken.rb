@@ -5,5 +5,11 @@ if board[index] == " "
   return board[index] != " "
   elsif board[index] == ""
   return board[index] != ""
+  elsif board[index] == nil
+  return board[index] != ""
+  elsif board[index] == "X"
+  return board[index] == "X"
+  elsif board[index] == "O"
+  return board[index] == "O"
 end
 end
